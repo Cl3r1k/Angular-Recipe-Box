@@ -1,0 +1,43 @@
+// To push changes on githubpages
+// ng build --prod --base-href "https://Cl3r1k.github.io/Angular-Recipe-Box/"
+// angular-cli-ghpages --repo=https://github.com/Cl3r1k/Angular-Recipe-Box.git --name=Cl3r1k --email=cl3r1k2@gmail.com --no-silent
+
+Todos:
+    New:
+        Current:
+            ✔ Update Readme.md @done(18-01-10 17:32)
+
+            ☐ Add social icons (look here https://blog.angular-university.io/rxjs-switchmap-operator/)
+
+            ☐ Write business logic (look here https://codepen.io/freeCodeCamp/full/xVXWag)
+                ☐ I can create recipes that have names and ingredients.
+                ☐ I can see an index view where the names of all the recipes are visible.
+                ☐ I can click into any of those recipes to view it.
+                ☐ I can edit these recipes.
+                ☐ I can delete these recipes.
+                ☐ All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there.
+                    
+            ☐ Change header icon
+            ☐ Change footer icon
+
+            Hint:
+                ☐ You should prefix your local storage keys on CodePen, i.e. _username_recipes
+
+            ☐ Build UI (examples are bellow)
+                ☐ Some UI ideas from:
+
+            ☐ Add 'Fork on github' in the corner or github share link (like here https://codepen.io/hmps/pen/kiFum) (used ribbon)
+            ✔ Add spinner before Angular main component loaded (use https://jsfiddle.net/Cl3r1k/hyqdzgfn/) @done(18-01-10 17:39)
+            ☐ Change flexbox to CSS Grids (look here https://proglib.io/p/css-grid-vs-bootstrap/ and here https://proglib.io/p/css-grid/)
+            ☐ Add footer (preferably fixed bottom)
+                ☐ Steaky-footer on CSS Grid (look here https://codepen.io/matuzo/pen/JOyzOj?editors=1100)
+            
+            ☐ Correct e2e test
+            ☐ Write Unit tests
+            ☐ Deploy on gh-pages
+            ☐ Deploy on codepen
+    Done:
+        
+
+    Canceled:
+        
