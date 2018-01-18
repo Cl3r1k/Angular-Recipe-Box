@@ -64,12 +64,53 @@
                         .ingredients-list {
                             -webkit-margin-start: 1em;
                             -webkit-margin-end: 1em;
+                            hr {
+                                border-color: #dddddd;
+                            }
+                            ul {
+                                padding-left: 0;
+                                padding-right: 0;
+                                li {
+                                    border: 1px solid #dddddd;
+                                    border-bottom: none;
+                                    padding: 10px;
+                                }
+                                li:first-child {
+                                    border-top-right-radius: 3px;
+                                    border-top-left-radius: 3px;
+                                }
+                                li:last-child {
+                                    border-bottom: 1px solid #dddddd;
+                                    border-bottom-right-radius: 3px;
+                                    border-bottom-left-radius: 3px;
+                                }
+                            }
                         }
                         .buttons-container {
                             padding: 10px;
                             -webkit-margin-after: 1em;
                             -webkit-margin-start: 1em;
                             -webkit-margin-end: 1em;
+                            .btn-styled {
+                                border: 0;
+                                border-radius: 3px;
+                                -webkit-box-shadow: none;
+                                box-shadow: none;
+                                color: #fff;
+                                cursor: pointer;
+                                font-size: 17px;
+                                font-weight: 500;
+                                margin: 15px 5px 0;
+                                padding: 10px 32px;
+                                &.button-delete {
+                                    background-color: #dd3333;
+                                }
+                                &.button-edit {
+                                    background-color: rgb(48, 133, 214);
+                                    border-left-color: rgb(48, 133, 214);
+                                    border-right-color: rgb(48, 133, 214);
+                                }
+                            }
                         }
                     }
                 }
@@ -78,88 +119,29 @@
         .add-new-container {
             padding: 10px;
         }
-        // .users-table {
-        //     display: grid;
-        //     tr {
-        //         border-radius: 3px;
-        //         background-color: white;
-        //         border-left: 1px solid black;
-        //         border-right: 1px solid black;
-        //         display: grid;
-        //         grid-template-columns: repeat(12, 1fr);
-        //         transition: background-color 0.4s linear;
-        //         &:first-child {
-        //             line-height: 2.5em;
-        //             border-top: 1px solid black;
-        //             &:hover {
-        //                 background-color: #eee;
-        //             }
-        //         }
-        //         &:nth-child(odd) {
-        //             background-color: #ebf4fb;
-        //         }
-        //         &:last-child {
-        //             border-bottom: 1px solid black;
-        //         }
-        //         &:hover {
-        //             background-color: aqua;
-        //         }
-        //         th,
-        //         td {
-        //             border: 1px solid #d1d1d1;
-        //             height: 50px;
-        //             line-height: 50px;
-        //             grid-column: span 3;
-        //             text-align: center;
-        //             &:nth-child(1) {
-        //                 grid-column: span 1;
-        //             }
-        //             &:nth-child(2) {
-        //                 grid-column: span 5;
-        //                 text-align: left;
-        //                 padding-left: 10px;
-        //                 img {
-        //                     height: 40px;
-        //                     width: 40px;
-        //                     border: 2px solid #c9c9c9;
-        //                     border-radius: 5px;
-        //                     vertical-align: middle;
-        //                     margin-right: 5px;
-        //                 }
-        //             }
-        //             &.btn {
-        //                 &:hover {
-        //                     background-color: #cccccc;
-        //                 }
-        //                 .sort-by {
-        //                     text-decoration: underline;
-        //                     &:hover {
-        //                         cursor: pointer;
-        //                     }
-        //                 }
-        //                 // .arrow {
-        //                 //     display: inline-flex;
-        //                 //     -webkit-transform: rotate(90deg);
-        //                 //     -moz-transform: rotate(90deg);
-        //                 //     -o-transform: rotate(90deg);
-        //                 //     -ms-transform: rotate(90deg);
-        //                 //     transform: rotate(90deg);
-        //                 //     &.desc {
-        //                 //         -webkit-transform: rotate(-90deg);
-        //                 //         -moz-transform: rotate(-90deg);
-        //                 //         -o-transform: rotate(-90deg);
-        //                 //         -ms-transform: rotate(-90deg);
-        //                 //         transform: rotate(-90deg);
-        //                 //     }
-        //                 // }
-        //                 // .arrow:before {
-        //                 //     content: '❯';
-        //                 //     font-size: 18px;
-        //                 //     color: #737373;
-        //                 // }
-        //             }
-        //         }
-        //     }
-        // }
+    }
+}
+
+.btn-styled {
+    border: 0;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 15px 5px 0;
+    padding: 10px 32px;
+    &.button-delete {
+        background-color: #dd3333;
+    }
+    &.button-edit {
+        background-color: rgb(48, 133, 214);
+        border-left-color: rgb(48, 133, 214);
+        border-right-color: rgb(48, 133, 214);
+    }
+    &.button-add {
+        background-color: #53a524;
     }
 }

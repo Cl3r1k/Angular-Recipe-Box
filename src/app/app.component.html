@@ -80,15 +80,16 @@
                                 <div class='ingredients-container' [class.active]='recipe.active'>
                                     <h3>Ingredients</h3>
                                     <div class='ingredients-list'>
+                                        <hr>
                                         <ul>
                                             <li *ngFor='let ingredient of recipe.ingredients.split(",")'>
-                                                <p>{{ingredient}}</p>
+                                                {{ingredient}}
                                             </li>
                                         </ul>
                                     </div>
                                     <div class='buttons-container'>
-                                        <button>Add</button>
-                                        <button>Delete</button>
+                                        <button class='btn-styled button-edit'>Edit</button>
+                                        <button class='btn-styled button-delete'>Delete</button>
                                     </div>
                                 </div>
                             </div>
@@ -96,41 +97,9 @@
                     </ul>
                 </div>
                 <div class='add-new-container'>
-                    <button (click)='addNewRecipe()'>Add new Recipe</button>
+                    <button (click)='addNewRecipe()' class='btn-styled button-add'>Add new Recipe</button>
                 </div>
             </div>
-
-            <!-- <div class='users-list'>
-                <div class='table-header'>
-                    <h2>Leaderboard</h2>
-                </div>
-                <table class='users-table'>
-                    <tr>
-                        <th class='number'>#</th>
-                        <th>Camper Name</th>
-                        <th class='btn'>
-                            <span class='sort-by' (click)='doSearch("recent")'>Points in past 30 days</span>
-                            <span class='arrow' [class.desc]='isDesc' *ngIf='state === 1'></span>
-                        </th>
-                        <th class='btn'>
-                            <span class='sort-by' (click)='doSearch("alltime")'>All time points</span>
-                            <span class='arrow' [class.desc]='isDesc' *ngIf='state === 2'></span>
-                        </th>
-                    </tr>
-                    <tr *ngFor='let user of usersList; let i = index' class='table-data'>
-                        <td>{{i + 1}}</td>
-                        <td>
-                            <a href='https://www.freecodecamp.com/{{user.username}}' target="_blank"><img src='{{user.img}}' alt={{user.username}}>{{user.username}}</a>
-                        </td>
-                        <td>{{user.recent}}</td>
-                        <td>{{user.alltime}}</td>
-                    </tr>
-                </table>
-                <div class="loader" *ngIf='!dataLoaded'>
-                    <div class="shadow"></div>
-                    <div class="box"></div>
-                </div>
-            </div> -->
         </div>
     </div>
     <div class='footer'>

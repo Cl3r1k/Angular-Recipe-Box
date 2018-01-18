@@ -26,11 +26,11 @@ Todos:
             ☐ Build UI (examples are bellow)
                 ☐ Some UI ideas from:
 
-            ☐ Add 'Fork on github' in the corner or github share link (like here https://codepen.io/hmps/pen/kiFum) (used ribbon)
+            ✔ Add 'Fork on github' in the corner or github share link (like here https://codepen.io/hmps/pen/kiFum) (used ribbon) @done(18-01-18 17:12)
             ✔ Add spinner before Angular main component loaded (use https://jsfiddle.net/Cl3r1k/hyqdzgfn/) @done(18-01-10 17:39)
-            ☐ Change flexbox to CSS Grids (look here https://proglib.io/p/css-grid-vs-bootstrap/ and here https://proglib.io/p/css-grid/)
-            ☐ Add footer (preferably fixed bottom)
-                ☐ Steaky-footer on CSS Grid (look here https://codepen.io/matuzo/pen/JOyzOj?editors=1100)
+            ✔ Change flexbox to CSS Grids (look here https://proglib.io/p/css-grid-vs-bootstrap/ and here https://proglib.io/p/css-grid/) @done(18-01-18 17:13)
+            ✔ Add footer (preferably fixed bottom) @done(18-01-18 17:13)
+                ✔ Steaky-footer on CSS Grid (look here https://codepen.io/matuzo/pen/JOyzOj?editors=1100) @done(18-01-18 17:13)
             
             ☐ Correct e2e test
             ☐ Write Unit tests
