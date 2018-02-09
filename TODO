@@ -17,6 +17,12 @@ Todos:
                 ☐ I can delete these recipes.
                 ☐ All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there.
                     
+            ☐ Use modal for editing/adding: 
+                `http://brianflove.com/2017/07/17/angular-delete-confirmation/`
+                `https://blog.thoughtram.io/angular/2017/11/13/easy-dialogs-with-angular-material.html`
+                `https://medium.com/codingthesmartway-com-blog/angular-material-part-2-popups-modals-1ed0c2405f18`
+                `https://alligator.io/angular/dialogs-angular-material/`
+                
             ☐ Change header icon
             ☐ Change footer icon
 
