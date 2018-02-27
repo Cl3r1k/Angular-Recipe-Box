@@ -39,7 +39,7 @@ Todos:
             ✔ Add footer (preferably fixed bottom) @done(18-01-18 17:13)
                 ✔ Steaky-footer on CSS Grid (look here https://codepen.io/matuzo/pen/JOyzOj?editors=1100) @done(18-01-18 17:13)
             
-            ☐ Correct e2e test
+            ✔ Correct e2e test @done(18-02-27 18:04)
             ☐ Write Unit tests
             ☐ Deploy on gh-pages
             ☐ Deploy on codepen
