@@ -9,28 +9,29 @@ Todos:
 
             ✔ Add social icons (look here https://blog.angular-university.io/rxjs-switchmap-operator/) @done(18-01-12 16:33)
 
-            ☐ Write business logic (look here https://codepen.io/freeCodeCamp/full/xVXWag)
-                ☐ I can create recipes that have names and ingredients.
-                ☐ I can see an index view where the names of all the recipes are visible.
-                ☐ I can click into any of those recipes to view it.
-                ☐ I can edit these recipes.
-                ☐ I can delete these recipes.
-                ☐ All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there.
+            ✔ Write business logic (look here https://codepen.io/freeCodeCamp/full/xVXWag) @done(18-02-27 17:47)
+                ✔ I can create recipes that have names and ingredients. @done(18-02-27 17:47)
+                ✔ I can see an index view where the names of all the recipes are visible. @done(18-02-27 17:47)
+                ✔ I can click into any of those recipes to view it. @done(18-02-27 17:47)
+                ✔ I can edit these recipes. @done(18-02-27 17:47)
+                ✔ I can delete these recipes. @done(18-02-27 17:47)
+                ✔ All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there. @done(18-02-27 17:47)
                     
-            ☐ Use modal for editing/adding: 
+            ✔ Use modal for editing/adding: @done(18-02-27 17:47)
                 `http://brianflove.com/2017/07/17/angular-delete-confirmation/`
                 `https://blog.thoughtram.io/angular/2017/11/13/easy-dialogs-with-angular-material.html`
                 `https://medium.com/codingthesmartway-com-blog/angular-material-part-2-popups-modals-1ed0c2405f18`
                 `https://alligator.io/angular/dialogs-angular-material/`
                 
-            ☐ Change header icon
-            ☐ Change footer icon
+            ✔ Change header icon @done(18-02-27 17:59)
+            ✔ Change footer icon @done(18-02-27 17:59)
 
             Hint:
-                ☐ You should prefix your local storage keys on CodePen, i.e. _username_recipes
+                ✔ You should prefix your local storage keys on CodePen, i.e. _username_recipes @done(18-02-27 17:59)
 
-            ☐ Build UI (examples are bellow)
-                ☐ Some UI ideas from:
+            ✔ Build UI (examples are bellow) @done(18-02-27 17:59)
+                ✔ Some UI ideas from: @done(18-02-27 18:00)
+                    `https://codepen.io/freeCodeCamp/full/xVXWag`
 
             ✔ Add 'Fork on github' in the corner or github share link (like here https://codepen.io/hmps/pen/kiFum) (used ribbon) @done(18-01-18 17:12)
             ✔ Add spinner before Angular main component loaded (use https://jsfiddle.net/Cl3r1k/hyqdzgfn/) @done(18-01-10 17:39)

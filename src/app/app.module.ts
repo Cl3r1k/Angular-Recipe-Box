@@ -6,13 +6,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 
 // Library
-import { MatDialogModule, MatButtonModule, MatCardModule } from '@angular/material';
-import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
+import { MatDialogModule, MatButtonModule, MatCardModule, MatFormFieldModule, MatInputModule } from '@angular/material';
+import { MyDialogComponent } from './my-dialog/my-dialog.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        DialogDemoComponent
+        MyDialogComponent
     ],
     imports: [
         BrowserModule,
@@ -20,8 +20,11 @@ import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
         FormsModule,
         MatDialogModule,
         MatButtonModule,
-        MatCardModule
+        MatCardModule,
+        MatFormFieldModule,
+        MatInputModule
     ],
+    entryComponents: [MyDialogComponent],
     providers: [],
     bootstrap: [AppComponent]
 })
