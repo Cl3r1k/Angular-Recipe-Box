@@ -52,10 +52,6 @@ export class AppComponent implements OnInit {
         this.hiddenSocialIcons = !this.hiddenSocialIcons;
     }
 
-    addNewRecipe() {
-        //
-    }
-
     enlarge(recipeId: number) {
         this.recipeList.forEach(item => {
             item.active = item.id === recipeId && item.active === false ? true : false;
@@ -99,7 +95,7 @@ export class AppComponent implements OnInit {
                     lastIndex = item.id;
                 });
 
-                if (!updated) {
+                if (!updated && result['recipeIngredients']) {
                     if (!result['recipeName']) {
                         result['recipeName'] = 'Untitled';
                     }
@@ -111,12 +107,14 @@ export class AppComponent implements OnInit {
         });
     }
 
-    deleteReciper(recipe: Recipe) {
+    deleteRecipe(recipe: Recipe) {
         const recipeListTmp = this.recipeList.filter(item => {
             return item.id !== recipe.id;
         });
 
         this.recipeList = recipeListTmp;
+
+        this.updateLocalStorage();
     }
 
     readLocalStorage() {

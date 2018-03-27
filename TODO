@@ -2,9 +2,15 @@
 // ng build --prod --base-href "https://Cl3r1k.github.io/Angular-Recipe-Box/"
 // angular-cli-ghpages --repo=https://github.com/Cl3r1k/Angular-Recipe-Box.git --name=Cl3r1k --email=cl3r1k2@gmail.com --no-silent
 
+Commit message:
+
+    
 Todos:
     New:
         Current:
+
+            ☐ Fix issue, when user can add empty recipe
+
             ✔ Update Readme.md @done(18-01-10 17:32)
 
             ✔ Add social icons (look here https://blog.angular-university.io/rxjs-switchmap-operator/) @done(18-01-12 16:33)
@@ -42,7 +48,7 @@ Todos:
             ✔ Correct e2e test @done(18-02-27 18:04)
             ☐ Write Unit tests
             ☐ Deploy on gh-pages
-            ☐ Deploy on codepen
+            ✘ Deploy on codepen -> gh-pages will be enough @cancelled(18-03-27 16:02)
     Done:
         
 
