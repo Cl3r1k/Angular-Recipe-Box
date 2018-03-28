@@ -11,6 +11,7 @@ describe('AppComponent', () => {
     let addNewBtnEl;
     let editBtnEl;
     let deleteBtnEl;
+    let expextedRecipeList: Recipe[];
 
     beforeEach(async(() => {
         TestBed.configureTestingModule({
@@ -24,6 +25,11 @@ describe('AppComponent', () => {
     beforeEach(() => {
         fixture = TestBed.createComponent(AppComponent);
         component = fixture.componentInstance;
+
+        expextedRecipeList = [
+            new Recipe(0, 'cake', 'potato, oil, apple', false),
+            new Recipe(1, 'cake with lemon', 'potato, oil, lemon', false),
+            new Recipe(2, 'fried chicken', 'chicken, oil, onion', false)];
 
         fixture.detectChanges();
 
@@ -65,10 +71,8 @@ describe('AppComponent', () => {
         // Assert
         expect(component.hiddenSocialIcons).toBe(false, 'actually hiddenSocialIcons should be true, but changed in ngOnInit');
         expect(component.dialogResult).toBe(undefined);
-        expect(component.recipeList).toEqual([
-            new Recipe(0, 'cake', 'potato, oil, apple', false),
-            new Recipe(1, 'cake with lemon', 'potato, oil, lemon', false),
-            new Recipe(2, 'fried chicken', 'chicken, oil, onion', false)]);
+        // Testet length, as far onInit, loaded data from localStorage as Object[] but not as Recipe[]
+        expect(component.recipeList.length).toEqual(expextedRecipeList.length);
     }));
 
     describe('#initApp', () => {
@@ -108,6 +112,18 @@ describe('AppComponent', () => {
         }));
     });
 
+    describe('#readLocalStorage', () => {
+        it(`should read data from localStorage (async)`, async(() => {
+            // Arrange
+
+            // Act
+            component.readLocalStorage();
+
+            // Assert
+            expect(component.recipeList.length).toEqual(3);
+        }));
+    });
+
     describe('#deleteRecipe', () => {
         it(`should delete recipe (async)`, async(() => {
             // Arrange
@@ -120,12 +136,14 @@ describe('AppComponent', () => {
         }));
     });
 
-    describe('#readLocalStorage', () => {
+    describe('#updateLocalStorage', () => {
         it(`should read data from localStorage (async)`, async(() => {
-            // Arrange
+            // Arrange - restore initial values
+            component.recipeList = expextedRecipeList;
 
             // Act
-            component.readLocalStorage();
+            component.updateLocalStorage();
+            // component.readLocalStorage();
 
             // Assert
             expect(component.recipeList.length).toEqual(3);

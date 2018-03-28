@@ -9,7 +9,7 @@ Todos:
     New:
         Current:
 
-            ☐ Fix issue, when user can add empty recipe
+            ✔ Fix issue, when user can add empty recipe @done(18-03-27 18:50)
 
             ✔ Update Readme.md @done(18-01-10 17:32)
 
@@ -46,7 +46,7 @@ Todos:
                 ✔ Steaky-footer on CSS Grid (look here https://codepen.io/matuzo/pen/JOyzOj?editors=1100) @done(18-01-18 17:13)
             
             ✔ Correct e2e test @done(18-02-27 18:04)
-            ☐ Write Unit tests
+            ✔ Write Unit tests @done(18-03-28 15:42)
             ☐ Deploy on gh-pages
             ✘ Deploy on codepen -> gh-pages will be enough @cancelled(18-03-27 16:02)
     Done:
