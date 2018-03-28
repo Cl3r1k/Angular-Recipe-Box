@@ -70,6 +70,7 @@ describe('AppComponent', () => {
 
         // Assert
         expect(component.hiddenSocialIcons).toBe(false, 'actually hiddenSocialIcons should be true, but changed in ngOnInit');
+        expect(component.iconsHovered).toEqual(false);
         expect(component.dialogResult).toBe(undefined);
         // Testet length, as far onInit, loaded data from localStorage as Object[] but not as Recipe[]
         expect(component.recipeList.length).toEqual(expextedRecipeList.length);

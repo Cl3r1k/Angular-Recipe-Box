@@ -26,6 +26,7 @@ export class Recipe {
 export class AppComponent implements OnInit {
 
     hiddenSocialIcons = true;
+    iconsHovered = false;
     recipeList: Recipe[] = [
         new Recipe(0, 'cake', 'potato, oil, apple', false),
         new Recipe(1, 'cake with lemon', 'potato, oil, lemon', false),

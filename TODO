@@ -1,6 +1,6 @@
 // To push changes on githubpages
 // ng build --prod --base-href "https://Cl3r1k.github.io/Angular-Recipe-Box/"
-// angular-cli-ghpages --repo=https://github.com/Cl3r1k/Angular-Recipe-Box.git --name=Cl3r1k --email=cl3r1k2@gmail.com --no-silent
+// angular-cli-ghpages --repo="https://github.com/Cl3r1k/Angular-Recipe-Box.git" --name=Cl3r1k --email=cl3r1k2@gmail.com --no-silent
 
 Commit message:
 
@@ -8,49 +8,48 @@ Commit message:
 Todos:
     New:
         Current:
-
-            ✔ Fix issue, when user can add empty recipe @done(18-03-27 18:50)
-
-            ✔ Update Readme.md @done(18-01-10 17:32)
-
-            ✔ Add social icons (look here https://blog.angular-university.io/rxjs-switchmap-operator/) @done(18-01-12 16:33)
-
-            ✔ Write business logic (look here https://codepen.io/freeCodeCamp/full/xVXWag) @done(18-02-27 17:47)
-                ✔ I can create recipes that have names and ingredients. @done(18-02-27 17:47)
-                ✔ I can see an index view where the names of all the recipes are visible. @done(18-02-27 17:47)
-                ✔ I can click into any of those recipes to view it. @done(18-02-27 17:47)
-                ✔ I can edit these recipes. @done(18-02-27 17:47)
-                ✔ I can delete these recipes. @done(18-02-27 17:47)
-                ✔ All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there. @done(18-02-27 17:47)
-                    
-            ✔ Use modal for editing/adding: @done(18-02-27 17:47)
-                `http://brianflove.com/2017/07/17/angular-delete-confirmation/`
-                `https://blog.thoughtram.io/angular/2017/11/13/easy-dialogs-with-angular-material.html`
-                `https://medium.com/codingthesmartway-com-blog/angular-material-part-2-popups-modals-1ed0c2405f18`
-                `https://alligator.io/angular/dialogs-angular-material/`
-                
-            ✔ Change header icon @done(18-02-27 17:59)
-            ✔ Change footer icon @done(18-02-27 17:59)
-
-            Hint:
-                ✔ You should prefix your local storage keys on CodePen, i.e. _username_recipes @done(18-02-27 17:59)
-
-            ✔ Build UI (examples are bellow) @done(18-02-27 17:59)
-                ✔ Some UI ideas from: @done(18-02-27 18:00)
-                    `https://codepen.io/freeCodeCamp/full/xVXWag`
-
-            ✔ Add 'Fork on github' in the corner or github share link (like here https://codepen.io/hmps/pen/kiFum) (used ribbon) @done(18-01-18 17:12)
-            ✔ Add spinner before Angular main component loaded (use https://jsfiddle.net/Cl3r1k/hyqdzgfn/) @done(18-01-10 17:39)
-            ✔ Change flexbox to CSS Grids (look here https://proglib.io/p/css-grid-vs-bootstrap/ and here https://proglib.io/p/css-grid/) @done(18-01-18 17:13)
-            ✔ Add footer (preferably fixed bottom) @done(18-01-18 17:13)
-                ✔ Steaky-footer on CSS Grid (look here https://codepen.io/matuzo/pen/JOyzOj?editors=1100) @done(18-01-18 17:13)
             
-            ✔ Correct e2e test @done(18-02-27 18:04)
-            ✔ Write Unit tests @done(18-03-28 15:42)
-            ☐ Deploy on gh-pages
-            ✘ Deploy on codepen -> gh-pages will be enough @cancelled(18-03-27 16:02)
     Done:
+        ✔ Fix issue, when user can add empty recipe @done(18-03-27 18:50)
+
+        ✔ Update Readme.md @done(18-01-10 17:32)
+
+        ✔ Add social icons (look here https://blog.angular-university.io/rxjs-switchmap-operator/) @done(18-01-12 16:33)
+
+        ✔ Write business logic (look here https://codepen.io/freeCodeCamp/full/xVXWag) @done(18-02-27 17:47)
+            ✔ I can create recipes that have names and ingredients. @done(18-02-27 17:47)
+            ✔ I can see an index view where the names of all the recipes are visible. @done(18-02-27 17:47)
+            ✔ I can click into any of those recipes to view it. @done(18-02-27 17:47)
+            ✔ I can edit these recipes. @done(18-02-27 17:47)
+            ✔ I can delete these recipes. @done(18-02-27 17:47)
+            ✔ All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there. @done(18-02-27 17:47)
+                
+        ✔ Use modal for editing/adding: @done(18-02-27 17:47)
+            `http://brianflove.com/2017/07/17/angular-delete-confirmation/`
+            `https://blog.thoughtram.io/angular/2017/11/13/easy-dialogs-with-angular-material.html`
+            `https://medium.com/codingthesmartway-com-blog/angular-material-part-2-popups-modals-1ed0c2405f18`
+            `https://alligator.io/angular/dialogs-angular-material/`
+            
+        ✔ Change header icon @done(18-02-27 17:59)
+        ✔ Change footer icon @done(18-02-27 17:59)
+
+        Hint:
+            ✔ You should prefix your local storage keys on CodePen, i.e. _username_recipes @done(18-02-27 17:59)
+
+        ✔ Build UI (examples are bellow) @done(18-02-27 17:59)
+            ✔ Some UI ideas from: @done(18-02-27 18:00)
+                `https://codepen.io/freeCodeCamp/full/xVXWag`
+
+        ✔ Add 'Fork on github' in the corner or github share link (like here https://codepen.io/hmps/pen/kiFum) (used ribbon) @done(18-01-18 17:12)
+        ✔ Add spinner before Angular main component loaded (use https://jsfiddle.net/Cl3r1k/hyqdzgfn/) @done(18-01-10 17:39)
+        ✔ Change flexbox to CSS Grids (look here https://proglib.io/p/css-grid-vs-bootstrap/ and here https://proglib.io/p/css-grid/) @done(18-01-18 17:13)
+        ✔ Add footer (preferably fixed bottom) @done(18-01-18 17:13)
+            ✔ Steaky-footer on CSS Grid (look here https://codepen.io/matuzo/pen/JOyzOj?editors=1100) @done(18-01-18 17:13)
         
+        ✔ Correct e2e test @done(18-02-27 18:04)
+        ✔ Write Unit tests @done(18-03-28 15:42)
+        ✔ Deploy on gh-pages @done(18-03-28 16:00)
 
     Canceled:
+        ✘ Deploy on codepen -> gh-pages will be enough @cancelled(18-03-27 16:02)
         
